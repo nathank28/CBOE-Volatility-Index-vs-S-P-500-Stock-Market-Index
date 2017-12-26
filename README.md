@@ -11,7 +11,7 @@ In this program, certain variables and functionality have been added, modified, 
 The program is simplified in the context of what’s being pursued. In the SOK model, standard economic formulas are used to compute maximal revenue, which is determined by a dynamic monopoly price. The simulation must “chase” this price to receive maximum revenue. In our model, the simulation must chase the S&P value, and this is done without using any economic formulas, which means it’s a relatively straightforward process and the code used to construct this program is not difficult to follow.
 
 Note that you will have to change the directory in the code so that the NetLogo program can find the file:
-"[INSERT REST OF DIRECTORY HERE]/oidd project/FINAL-RAW.csv"
+"[INSERT REST OF DIRECTORY HERE]/oiddvix/FINAL-RAW.csv"
 
 If we have dynamic delta on, this means that the program will read each successive VIX value on the excel file provided entitled  FINAL-CSV.csv . The corresponding S&P values are picked up in the same manner.If  dynamic-delta  is off, then the VIX values picked up by the Netlogo CSV parser will be ignored. It’s merely just the difference between using the VIX values and not using them. We use the function  daRevenue  from SOK’s Probe and Adjust to calculate the absolute difference of the probe and the current S&P value. If the probe is above the  currentPrice , the difference goes into the up-data list. If the probe is below the c  urrentPrice , the difference goes into the down-data list.
 

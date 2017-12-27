@@ -1,6 +1,8 @@
 CBOE Volatility Index (VIX) vs S&P500 Stock Market Index
 
-Developers: Jonathan Avila, Nathan Guo, Noah Weiner
+Developers: Nathan Guo, Jonathan Avila, Noah Weiner
+
+Class: OIDD 319 Advanced Decision Systems @ The Wharton School, University of Pennsylvania
 
 This model explores how we can determine a relationship between the VIX “fear gauge” and the S&P stock market index. In general, comparisons between different Probe and Adjust operations can be made by running simulations using the operation created by Steven O. Kimbrough and by using the modified operations which have been provided in this program. Information regarding the standard model of Probe and Adjust are provided by SOK in the coursework of OIDD 319.
 
